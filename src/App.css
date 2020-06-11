@@ -1,0 +1,21 @@
+.u-centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.u-full-vw {
+  width: 100vw;
+}
+
+.u-full-vh {
+  height: 100vh;
+}
+
+main {
+    font-size: 1rem;
+}
+
+main * {
+    font-size: inherit;
+}

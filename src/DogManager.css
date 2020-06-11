@@ -1,0 +1,63 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.dog-create-form {
+  padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  appearance: none;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+input:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 8px grey;
+}
+
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background-color: dodgerblue;
+  box-shadow: 2px 2px 8px dodgerblue;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+button:hover,
+button:focus {
+  box-shadow: 2px 2px 15px dodgerblue;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 2px 2px 18px blue;
+  background-color: blue;
+}
+
+.divider {
+  width: 1px;
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.dog-list-section {
+  padding: 30px;
+}
